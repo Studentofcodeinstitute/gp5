@@ -1,0 +1,8 @@
+libdir=/workspace/gp5/mimiconda3/lib
+includedir=/workspace/gp5/mimiconda3/include
+
+Name: libsolv
+Description: Library for solving packages
+Version: 0.7.24
+Libs: -L${libdir} -lsolv
+Cflags: -I${includedir}
